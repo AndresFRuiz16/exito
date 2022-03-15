@@ -3,7 +3,7 @@ etiquetaBoton.addEventListener("click",escuchar);
 function escuchar(event){
     event.preventDefault()
     console.log("hizo click")
-    let procesador=document.getElementById("procesador").value
+    let procesador=document.getElementById("procesadores").value
     console.log(procesador)
     let edad=document.getElementById("Edad").value
     console.log(edad)
