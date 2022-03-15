@@ -49,7 +49,29 @@
     </header>
     <main>
         <div class="container">
-            <div class="row justify-content-center"></div>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <form action="border p-5">
+                        <label class="form-label">Empanadas</label>
+                        <select id="procesadores" class="form-select mt-3" aria-label="Default select example">
+                            <option selected>Procesador</option>
+                            <option value="i5">intel core i5</option>
+                            <option value="i7">intel core i7</option>
+                            <option value="ryzen5">Ryzen 5</option>
+                            <option value="ryzen7">Ryzen 7</option>
+                        </select>
+                        <div class="mb-3 mt-4">
+                            <label class="form-label">Edad</label>
+                            <input type="number" class="form-control" id="Edad" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3 mt-4">
+                            <label class="form-label">cantidad</label>
+                            <input type="number" class="form-control" id="cantidad" aria-describedby="emailHelp">
+                        </div>
+                        <button id="boton" type="submit" class="btn btn-primary">enviar</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
